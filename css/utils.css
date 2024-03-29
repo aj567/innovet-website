@@ -1,0 +1,82 @@
+.flex {
+    display: flex;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.link-active {
+    font-weight: bolder;
+}
+
+.space-evenly {
+    justify-content: space-evenly;
+}
+
+.box-shadow {
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.box-shadow-2 {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.width-90 {
+    width: 90%;
+    margin: auto;
+}
+
+.width-70 {
+    width: 70%;
+    margin: auto;
+}
+
+/* Dropdown link */
+.droplink {
+    /* background-color: #04AA6D; */
+    /* color: white; */
+    /* padding: 16px; */
+    /* font-size: 16px; */
+    border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: var(--color3);
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+    border-radius: 15px;
+    padding: 15px 0;
+    background-color: var(--color4);
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+/* .dropdown:hover .droplink {background-color: var(--color4);} */
